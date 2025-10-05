@@ -67,7 +67,7 @@ A number is never blank.
 (1).isBlank() // => false
 ```
 
-## Comparison to Rails' `blank?`
+## Behavior at a Glance
 
 This library aims to replicate the behavior of Rails' `blank?` method for common JavaScript types.
 
