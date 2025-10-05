@@ -1,13 +1,23 @@
 {
   "name": "is-blank-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight utility that adds an .isBlank() method to native JavaScript types, inspired by Ruby on Rails' Object#blank?.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wusinho/is-blank-js"
+  },
+  "keywords": [
+    "blank",
+    "is-blank",
+    "empty",
+    "rails",
+    "utility",
+    "prototype"
+  ],
+  "author": "Wusinho",
+  "license": "ISC"
 }
