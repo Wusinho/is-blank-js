@@ -71,17 +71,17 @@ A number is never blank.
 
 This library aims to replicate the behavior of Rails' `blank?` method for common JavaScript types.
 
-| Value in JavaScript | `isBlank()` | Rails `blank?` |
-| ------------------- | ----------- | -------------- |
-| `""`                | `true`      | `true`         |
-| `"   "`             | `true`      | `true`         |
-| `[]`                | `true`      | `true`         |
-| `{}`                | `true`      | `true`         |
-| `false`             | `true`      | `true`         |
-| `true`              | `false`     | `false`        |
-| `0`                 | `false`     | `false`        |
-| `null`              | (error)     | `true`         |
-| `undefined`         | (error)     | `true`         |
+| Value in JavaScript | `isBlank()` | 
+| ------------------- | ----------- |
+| `""`                | `true`      |
+| `"   "`             | `true`      |
+| `[]`                | `true`      |
+| `{}`                | `true`      |
+| `false`             | `true`      |
+| `true`              | `false`     |
+| `0`                 | `false`     |
+| `null`              | (error)     |
+| `undefined`         | (error)     |
 
 **Note:** This library does not handle `null` or `undefined` because they don't have prototypes to extend. Calling `isBlank()` on `null` or `undefined` will result in a `TypeError`.
 
