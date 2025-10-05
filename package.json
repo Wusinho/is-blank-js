@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Wusinho/is-blank-js"
+    "url": "git+https://github.com/Wusinho/is-blank-js.git"
   },
   "keywords": [
     "blank",
